@@ -25,8 +25,7 @@ time = list(range(3000))
 dynamic = True
 c_thresh = 6
 
-"""Do not adjust code below, or proceed with caution if so.
-    This will also be uploaded to GitHub in the near future. """
+"""Do not adjust code below, or proceed with caution if so. """
 
 class Idea:
     """Idea, as defined by needs of psychological organoid research in sleep dynamics paper"""
