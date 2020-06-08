@@ -42,7 +42,6 @@ class Idea:
     
     def calc_next(self, t=0):
         if dynamic == True:
-#             A_dyn = A+(amp*cos(t/f))
             if (t > sleep_time) & (t < wake_time): 
                 A_dyn = A+(amp*cos(t/p) - amp)
             else: 
